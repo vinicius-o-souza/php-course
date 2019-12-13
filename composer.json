@@ -1,0 +1,12 @@
+{
+  "name": "php/php",
+  "type": "project",
+  "description": "Design Patterns PHP.",
+  "license": "MIT",
+  "require": {
+    "php": "^7.3"
+  },
+  "autoload": {
+      "psr-4": {"App\\": "src/"}
+  }
+}
