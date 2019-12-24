@@ -2,6 +2,6 @@
 
 require __DIR__ . '/vendor/autoload.php';
 
-use App\RefactoringGuru\Creational\Creational;
+use App\CreationalDesign;
 
-Creational::execute();
+CreationalDesign::execute();

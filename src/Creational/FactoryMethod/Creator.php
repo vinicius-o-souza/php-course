@@ -1,6 +1,6 @@
 <?php
 
-namespace App\RefactoringGuru\Creational\FactoryMethod;
+namespace App\Creational\FactoryMethod;
 
 /**
  * The Creator class declares the factory method that is supposed to return an

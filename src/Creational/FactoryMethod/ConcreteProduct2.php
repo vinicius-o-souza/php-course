@@ -1,6 +1,6 @@
 <?php
 
-namespace App\RefactoringGuru\Creational\FactoryMethod;
+namespace App\Creational\FactoryMethod;
 
 class ConcreteProduct2 implements Product
 {

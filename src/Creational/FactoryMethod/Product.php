@@ -1,6 +1,6 @@
 <?php
 
-namespace App\RefactoringGuru\Creational\FactoryMethod;
+namespace App\Creational\FactoryMethod;
 
 /**
  * The Product interface declares the operations that all concrete products must

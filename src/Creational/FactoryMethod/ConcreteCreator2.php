@@ -1,8 +1,8 @@
 <?php
 
-namespace App\RefactoringGuru\Creational\FactoryMethod;
+namespace App\Creational\FactoryMethod;
 
-use App\RefactoringGuru\Creational\FactoryMethod\ConcreteProduct2;
+use App\Creational\FactoryMethod\ConcreteProduct2;
 
 /**
  * Concrete Creators override the factory method in order to change the
