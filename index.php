@@ -2,6 +2,6 @@
 
 require __DIR__ . '/vendor/autoload.php';
 
-use App\CreationalDesign;
+use App\Application;
 
-CreationalDesign::execute();
+Application::start();

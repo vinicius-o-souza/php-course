@@ -2,12 +2,33 @@
 
 namespace App\Creational\Prototype;
 
-class Inicialize
+use App\DesignPattern;
+use App\Creational\Prototype\Conceptual\{ComponentWithBackReference, Prototype};
+use App\Creational\Prototype\RealWorld\{Author, Page};
+
+class PrototypeDesign implements DesignPattern
 {
     
-    public function __construct()
+    public function conceptualExample()
     {
         $this->clientCode();
+    }
+    
+    public function realWorldExample()
+    {
+        $author = new Author("John Smith");
+        $page = new Page("Tip of the day", "Keep calm and carry on.", $author);
+
+        // ...
+
+        $page->addComment("Nice tip, thanks!");
+
+        // ...
+
+        $draft = clone $page;
+        echo "Dump of the clone. Note that the author is now referencing two objects.<br><br>";
+        echo "<pre>" . var_dump($page) . "</pre>";
+        echo "<pre>" . var_dump($draft) . "</pre>";
     }
     
     private function clientCode()
